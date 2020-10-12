@@ -12,7 +12,7 @@ def playground():
     statement2 = f"Those who know {binary} and those who {do_not}"
 
     print(statement1)
-    print(statement1 + statement2)
+    print(statement1 + statement2 + '1')
     print(statement2)
 
     print(f"I said: {statement1}")
