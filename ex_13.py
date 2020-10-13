@@ -3,7 +3,7 @@ from sys import argv
 
 def playground():
     """ playground """
-    script, first, second, third = argv
+    script, first, second, third = argv # pylint: disable=unbalanced-tuple-unpacking
 
     print("The script is called:", script)
     print("Your first variable is:", first)
