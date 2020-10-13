@@ -3,6 +3,7 @@ from sys import argv
 
 def playground():
     """ playground """
+    # Call file in the command line with the name of a text file (spelled correctly) as an argument.
     filename = argv[1]
     txt = open(filename)
     print(f"\n{filename} \n\n{txt.read()}")
