@@ -1,7 +1,7 @@
 """ Learn Python 3 The Hard Way """
 def playground():
     """ playground """
-    
+
     def cheese_and_crackers(cheese_count, boxes_of_crackers):
         print(f"You have {cheese_count} cheeses!")
         print(f"You have {boxes_of_crackers}")
@@ -17,11 +17,10 @@ def playground():
 
     cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
-    print("We can even do math inside:")   
+    print("We can even do math inside:")
     cheese_and_crackers(10+20, 5 + 6)
 
     print("We can combine the two, variables and math:")
     cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
-
 
 playground()
