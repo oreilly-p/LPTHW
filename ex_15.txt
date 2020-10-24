@@ -1,2 +1,0 @@
-This is a sample text file.
-This will facilitate the learning of Python3.
