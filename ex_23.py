@@ -19,7 +19,7 @@ def playground():
 
         print(raw_bytes, "<====>", cooked_string)
 
-    languages = open("ex_23_lang.txt", encoding="utf-8")
+    languages = open("ex_23.txt", encoding="utf-8")
 
     main(languages, encoding, error)
 
